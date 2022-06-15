@@ -601,13 +601,13 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .social__link--fb {
-    background-image: url(../../img/svg/facebook_ico.svg);
+    background-image: url(../img/svg/facebook_ico.svg);
     width: 11px;
     height: 20px;
 }
 
 .social__link--tw {
-    background-image: url(../../img/svg/twitter_ico.svg);
+    background-image: url(../img/svg/twitter_ico.svg);
     width: 20px;
     height: 17px;
 }
