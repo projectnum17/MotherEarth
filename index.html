@@ -4,421 +4,267 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mother Earth</title>
-    <link rel="icon" href="./img/svg/favicon_ico.svg" type="image/x-icon">
+    <title>Hello everyone! My name is Egor</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./libs/swiper.min.css">
-    <script src="./libs/swiper.min.js" defer></script>
+    <!--Link theme-->
+    <link rel="stylesheet" title="theme" href="#">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <!--Link Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous" defer></script>
+    <!--Link JS-->
     <script src="./js/main.js" defer></script>
 </head>
 <body>
-    <div class="site__container">
-        <div class="menu">
-            <button class="menu__close btn-reset" aria-label="Close">
-                <span class="menu__close-line"></span>
-                <span class="menu__close-line"></span>
-            </button>
-            <nav class="menu__nav">
-                <ul class="menu__list">
-                    <li class="menu__item"><a href="#become" class="menu__link">Become A Travel</a></li>
-                    <li class="menu__item"><a href="#stories" class="menu__link">Featured Stories</a></li>
-                    <li class="menu__item"><a href="#videos" class="menu__link">Featured Videos</a></li>
-                    <li class="menu__item"><a href="#sign" class="menu__link">Sign Up</a></li>
-                    <li class="menu__item"><a href="#insp" class="menu__link">Inspirations</a></li>
-                    <li class="menu__item"><a href="#contacts" class="menu__link">Contacs</a></li>
-                </ul>
-            </nav>
-        </div>
-        <header class="header">
-            <div class="container header__container flex">
-                <ul class="header__social social">
-                    <li class="social__item">
-                        <a href="#!" class="social__link social__link--fb" aria-label="Go to Facebook"></a>
-                    </li>
-                    <li class="social__item">
-                        <a href="#!" class="social__link social__link--tw" aria-label="Go to Twitter"></a>
-                    </li>
-                </ul>
-                <a href="#!" class="header__logo logo">
-                    MITRAVEL
-                </a>
-                <button class="burger header__burger btn-reset" aria-label="Open menu">
-                    <span class="burger__line"></span>
-                    <span class="burger__line"></span>
-                </button>
-            </div> 
-        </header>
-        <main class="main">
-            <section class="first">
-                <div class="container first__container">
-                    <a href="#!" class="first__link">
-                        NEW BOOK
-                    </a>
-                    <h1 class="first__title">
-                        Mother Earth Hosts Our Travels
-                    </h1>
-                    <p class="first__desc">
-                        There are not many cities that have experienced such social and political extremes in recent history as Amsterdam. In the 20th century alone, Amsterdam faced the atrocities of war for the first time in 400 years, became the radical center of 1960s social movements and witnessed a complete 
-                    </p>
-                    <button class="first__btn btn-reset btn">
-                        BUY THE BOOK
-                    </button>
-                    <div class="first__bottom">
-                        <form action="/" class="first__form search__form">
-                            <input type="search" class="search__form-field" placeholder="Search stories">
-                            <button type="submit" class="serch__form-button btn-reset" aria-label="Search stories"></button>
-                        </form>
-                        <div class="first__slider main-slider">
-                            <div class="swiper-container">
-                                <button class="first__slider-btn btn-left btn-reset"></button>
-                                <button class="first__slider-btn btn-right btn-reset"></button>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="main__slider-media">
-                                            <img src="./img/slider_item_new.jpg" alt="moutains">
-                                        </div>
-                                        <p class="main__slider-text">
-                                            wonderful moutain
-                                        </p>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="main__slider-media">
-                                            <img src="./img/slider_item_new.jpg" alt="moutains">
-                                        </div>
-                                        <p class="main__slider-text">
-                                            mesmerizing waterfalls
-                                        </p>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="main__slider-media">
-                                            <button class="main-slider__play btn-reset"></button>
-                                            <video src="./videos/video_2.mp4" muted playsinline></video>
-                                        </div>
-                                        <p class="main__slider-text">
-                                            impenetrable forests
-                                        </p>
-                                    </div>
-                                </div>
+<!--header-->
+    <header class="header" id="header">
+        <nav class="navbar_new">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="nav_wrapper">
+                        <div class="hamb">
+                            <div class="hamb_field" id="hamb">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section class="become" id="become">
-                <div class="container">
-                    <h2 class="section__title become__title">
-                        Become A Travel Pro In One Easy Lesson
-                    </h2>
-                    <ul class="become__list">
-                        <li class="become__item">
-                            <img src="./img/become_1.jpg" alt="Travel" class="become__image">
-                            <div class="become__text">Vacation Home <br> Rental Success</div>
-                        </li>
-                        <li class="become__item">
-                            <img src="./img/become_2.jpg" alt="Travel" class="become__image">
-                            <div class="become__text">Vacation Home <br> Rental Success</div>
-                        </li>
-                        <li class="become__item">
-                            <img src="./img/become_3.jpg" alt="Travel" class="become__image">
-                            <div class="become__text">Vacation Home <br> Rental Success</div>
-                        </li>
-                        <li class="become__item">
-                            <img src="./img/become_4.jpg" alt="Travel" class="become__image">
-                            <div class="become__text">Vacation Home <br> Rental Success</div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="featured" id="stories">
-                <div class="container featured__container">
-                    <article class="featured__article blog__article">
-                        <a href="#!" class="blog__article-category">FEATURED</a>
-                            <h3 class="blog__article-title">How To Fly A Private Jet On Your Next Trip</h3>
-                            <p class="blog__article-desc">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
-                            <a href="#!" class="blog__article-link btn">READ ARTICLE</a>
-                    </article>
-                </div>
-                    <div class="featured__stories">
-                        <h2 class="featured__title">
-                            Featured Stories
-                        </h2>
-                        <ul class="featured__list featured-list">
-                            <li class="featured__list-item">
-                                <article class="featured__list-article">
-                                    <div class="featured__list-image">
-                                        <img src="./img/avatar_1.png" alt="Woman">
-                                    </div>
-                                    <div class="featured__list-text">
-                                        <h3 class="featured__list-title">
-                                            <a href="#!">Do A Sporting Stag Do In Birmingham</a>
-                                        </h3>
-                                        <time class="featured__list-time" datetime="2022-12-13 00:00">13 Dec 2022</time>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="featured__list-item">
-                                <article class="featured__list-article">
-                                    <div class="featured__list-image">
-                                        <img src="./img/avatar_2.png" alt="Woman">
-                                    </div>
-                                    <div class="featured__list-text">
-                                        <h3 class="featured__list-title">
-                                            <a href="#!">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
-                                        </h3>
-                                        <time class="featured__list-time" datetime="2022-12-13 00:00">13 Dec 2022</time>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="featured__list-item">
-                                <article class="featured__list-article">
-                                    <div class="featured__list-image">
-                                        <img src="./img/avatar_3.png" alt="Woman">
-                                    </div>
-                                    <div class="featured__list-text">
-                                        <h3 class="featured__list-title">
-                                            <a href="#!">Stu Unger Rise And Fall Of A Poker Genius</a>
-                                        </h3>
-                                        <time class="featured__list-time" datetime="2022-12-13 00:00">13 Dec 2022</time>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="featured__list-item">
-                                <article class="featured__list-article">
-                                    <div class="featured__list-image">
-                                        <img src="./img/avatar_4.png" alt="Woman">
-                                    </div>
-                                    <div class="featured__list-text">
-                                        <h3 class="featured__list-title">
-                                            <a href="#!">New Ideas For A Low Cost Vacation On Water</a>
-                                        </h3>
-                                        <time class="featured__list-time" datetime="2022-12-13 00:00">13 Dec 2022</time>
-                                    </div>
-                                </article>
-                            </li>
+                        <a href="index.html" class="logo" id="logo">
+                            <svg class="logotype">
+                                <use xlink:href="images/sprite.svg#logotype"></use>
+                            </svg>
+                        </a>
+                        <ul class="menu" id="menu">
+                            <li><a href="#header" class="menu__link js_scroll">Home</a></li>
+                            <li><a href="#about" class="menu__link js_scroll">About me</a></li>
+                            <li><a href="#skills" class="menu__link js_scroll">Skills</a></li>
+                            <li><a href="#portfolio" class="menu__link js_scroll">Portfolio</a></li>
+                            <li><a href="#education" class="menu__link js_scroll">Education</a></li>
+                            <li><a href="#contacs" class="menu__link js_scroll">Contacs</a></li>
                         </ul>
-                    </div>             
-            </section>
-            <section class="featured-videos" id="videos">
-                <div class="container featured__videos-container">
-                    <h2 class="featured__videos-title section__title section__title-center">Featured Videos</h2>
-                    <p class="featured__videos-desc">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
-                </div>
-                <div class="slider-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-1">
-                            <button class="btn-reset slide__play"></button>
-                            <h3 class="slider__title">A Guide To Rocky Mountain Vacations</h3>
-                        </div>
-                        <div class="swiper-slide slide-2">
-                            <h3 class="slider__title">A Guide To Rocky Mountain Vacations</h3>
-                        </div>
-                        <div class="swiper-slide slide-3">
-                            <h3 class="slider__title">A Guide To Rocky Mountain Vacations</h3>
-                        </div>
-                        <div class="swiper-slide slide-4">
-                            <h3 class="slider__title">A Guide To Rocky Mountain Vacations</h3>
+                        <div class="theme">
+                            <svg class="change-theme" data-theme="light" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M20 30C22.6522 30 25.1957 28.9464 27.0711 27.0711C28.9464 25.1957 30 22.6522 30 20C30 17.3478 28.9464 14.8043 27.0711 12.9289C25.1957 11.0536 22.6522 10 20 10C17.3478 10 14.8043 11.0536 12.9289 12.9289C11.0536 14.8043 10 17.3478 10 20C10 22.6522 11.0536 25.1957 12.9289 27.0711C14.8043 28.9464 17.3478 30 20 30V30ZM20 0C20.3315 0 20.6495 0.131696 20.8839 0.366117C21.1183 0.600537 21.25 0.918479 21.25 1.25V6.25C21.25 6.58152 21.1183 6.89946 20.8839 7.13388C20.6495 7.3683 20.3315 7.5 20 7.5C19.6685 7.5 19.3505 7.3683 19.1161 7.13388C18.8817 6.89946 18.75 6.58152 18.75 6.25V1.25C18.75 0.918479 18.8817 0.600537 19.1161 0.366117C19.3505 0.131696 19.6685 0 20 0V0ZM20 32.5C20.3315 32.5 20.6495 32.6317 20.8839 32.8661C21.1183 33.1005 21.25 33.4185 21.25 33.75V38.75C21.25 39.0815 21.1183 39.3995 20.8839 39.6339C20.6495 39.8683 20.3315 40 20 40C19.6685 40 19.3505 39.8683 19.1161 39.6339C18.8817 39.3995 18.75 39.0815 18.75 38.75V33.75C18.75 33.4185 18.8817 33.1005 19.1161 32.8661C19.3505 32.6317 19.6685 32.5 20 32.5V32.5ZM40 20C40 20.3315 39.8683 20.6495 39.6339 20.8839C39.3995 21.1183 39.0815 21.25 38.75 21.25H33.75C33.4185 21.25 33.1005 21.1183 32.8661 20.8839C32.6317 20.6495 32.5 20.3315 32.5 20C32.5 19.6685 32.6317 19.3505 32.8661 19.1161C33.1005 18.8817 33.4185 18.75 33.75 18.75H38.75C39.0815 18.75 39.3995 18.8817 39.6339 19.1161C39.8683 19.3505 40 19.6685 40 20ZM7.5 20C7.5 20.3315 7.3683 20.6495 7.13388 20.8839C6.89946 21.1183 6.58152 21.25 6.25 21.25H1.25C0.918479 21.25 0.600537 21.1183 0.366117 20.8839C0.131696 20.6495 0 20.3315 0 20C0 19.6685 0.131696 19.3505 0.366117 19.1161C0.600537 18.8817 0.918479 18.75 1.25 18.75H6.25C6.58152 18.75 6.89946 18.8817 7.13388 19.1161C7.3683 19.3505 7.5 19.6685 7.5 20ZM34.1425 5.8575C34.3768 6.09191 34.5085 6.40979 34.5085 6.74125C34.5085 7.07271 34.3768 7.39059 34.1425 7.625L30.6075 11.1625C30.4913 11.2786 30.3533 11.3706 30.2016 11.4333C30.0498 11.4961 29.8871 11.5283 29.7229 11.5282C29.3912 11.528 29.0731 11.396 28.8387 11.1612C28.7227 11.045 28.6307 10.9071 28.5679 10.7553C28.5052 10.6035 28.4729 10.4409 28.4731 10.2766C28.4733 9.94491 28.6053 9.62689 28.84 9.3925L32.375 5.8575C32.6094 5.62316 32.9273 5.49152 33.2588 5.49152C33.5902 5.49152 33.9081 5.62316 34.1425 5.8575V5.8575ZM11.16 28.84C11.3943 29.0744 11.526 29.3923 11.526 29.7237C11.526 30.0552 11.3943 30.3731 11.16 30.6075L7.625 34.1425C7.38925 34.3702 7.07349 34.4962 6.74575 34.4933C6.418 34.4905 6.10449 34.359 5.87273 34.1273C5.64097 33.8955 5.50951 33.582 5.50666 33.2543C5.50381 32.9265 5.6298 32.6108 5.8575 32.375L9.3925 28.84C9.62691 28.6057 9.94479 28.474 10.2762 28.474C10.6077 28.474 10.9256 28.6057 11.16 28.84V28.84ZM34.1425 34.1425C33.9081 34.3768 33.5902 34.5085 33.2588 34.5085C32.9273 34.5085 32.6094 34.3768 32.375 34.1425L28.84 30.6075C28.6123 30.3717 28.4863 30.056 28.4892 29.7282C28.492 29.4005 28.6235 29.087 28.8552 28.8552C29.087 28.6235 29.4005 28.492 29.7282 28.4892C30.056 28.4863 30.3717 28.6123 30.6075 28.84L34.1425 32.375C34.3768 32.6094 34.5085 32.9273 34.5085 33.2588C34.5085 33.5902 34.3768 33.9081 34.1425 34.1425ZM11.16 11.1625C10.9256 11.3968 10.6077 11.5285 10.2762 11.5285C9.94479 11.5285 9.62691 11.3968 9.3925 11.1625L5.8575 7.625C5.73811 7.50969 5.64288 7.37176 5.57737 7.21926C5.51186 7.06675 5.47738 6.90273 5.47594 6.73675C5.47449 6.57078 5.50612 6.40618 5.56897 6.25256C5.63182 6.09894 5.72464 5.95937 5.84201 5.84201C5.95937 5.72464 6.09894 5.63182 6.25256 5.56897C6.40618 5.50612 6.57078 5.47449 6.73675 5.47594C6.90273 5.47738 7.06675 5.51186 7.21926 5.57737C7.37176 5.64288 7.50969 5.73811 7.625 5.8575L11.16 9.3925C11.2764 9.50861 11.3688 9.64655 11.4318 9.79842C11.4948 9.95028 11.5272 10.1131 11.5272 10.2775C11.5272 10.4419 11.4948 10.6047 11.4318 10.7566C11.3688 10.9084 11.2764 11.0464 11.16 11.1625V11.1625Z"></path></svg>
+                            <svg class="change-theme" data-theme="dark" width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15 0.695136C15.244 0.991667 15.3935 1.35457 15.4292 1.73694C15.4648 2.11932 15.385 2.5036 15.2 2.84014C13.7546 5.49382 12.9998 8.46837 13.005 11.4901C13.005 21.5426 21.2 29.6826 31.3 29.6826C32.6175 29.6826 33.9 29.5451 35.1325 29.2826C35.5103 29.2008 35.9039 29.2321 36.264 29.3726C36.6241 29.5131 36.9349 29.7566 37.1575 30.0726C37.3925 30.4013 37.5123 30.7983 37.4983 31.2021C37.4842 31.6058 37.3372 31.9936 37.08 32.3051C35.1192 34.7137 32.6456 36.6544 29.8396 37.9856C27.0335 39.3168 23.9658 40.0051 20.86 40.0001C9.335 40.0001 0 30.7151 0 19.2751C0 10.6651 5.285 3.28014 12.81 0.150136C13.1848 -0.00828447 13.601 -0.0407995 13.9959 0.057475C14.3908 0.15575 14.7431 0.379507 15 0.695136V0.695136Z"></path></svg>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="newsletter">
-                <div class="container">
-                    <div class="newsletter__content">
-                        <div class="newsletter__text">
-                            <h2 class="newsletter__title section__title" id="sign">
-                                Sign Up Our Newsletter
+            </div>
+        </nav>
+        <div class="popup" id="popup"></div>
+    </header>
+<!--header-->
+
+<!--Section title--> 
+    <div class="container col-lg-12">
+        <div class="row">
+            <div class="wrapper">
+                <h1 class="title">Chorniy Egor</h1>
+                <div class="wrapper_title">
+                    <h3 class="title_work">Front-end developer 23 years old, Odessa</h3>
+                    <div class="lang_title">
+                        <a href="index.html" class="lang_title-link">
+                            <h2 class="lang_title-desc active">
+                                EN
                             </h2>
-                            <p class="newsletter__desc">
-                                The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent.
-                            </p>
-                        </div>
-                        <form action="" class="newsletter__form subscribe__form">
-                            <input type="text" name="name" placeholder="Name" class="subscribe__form-field">
-                            <input type="email" name="email" placeholder="E-mail" class="subscribe__form-field">
-                            <input type="tel" name="tel" placeholder="Phone number" class="subscribe__form-field">
-                            <button class="btn btn-reset subscribe__fotm-btn" class="subscribe__form-field">Sign Up Now</button>
-                        </form>
+                        </a>
+                        <a href="index_ua.html" class="lang_title-link">
+                            <h2 class="lang_title-desc">
+                                UA
+                            </h2>
+                        </a>
                     </div>
                 </div>
-            </section>
-            <section class="insp" id="insp">
-                <div class="container">
-                    <h2 class="section__title section__title-center insp__heading">Inspirations</h2>
-                    <p class="insp__desc">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
-                    <ul class="grid insp__list">
-                        <li class="insp__item insp__item-big insp__item-1">
-                            <div class="insp__text">
-                                <a href="#!" class="insp__category">Destinations</a>
-                                <h3 class="insp__title">
-                                    <a href="#!">A Guide To Rocky Mountain Vacations</a>
-                                </h3>
-                                <ul class="insp__people">
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-1">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-2">
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="insp__item insp__item-bigheight insp__item-2">
-                            <div class="insp__text">
-                                <a href="#!" class="insp__category">Destinations</a>
-                                <h3 class="insp__title">
-                                    <a href="#!">Traveling To Barcelona</a>
-                                </h3>
-                                <ul class="insp__people">
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-1">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="insp__item insp__item-bigheight insp__item-3">
-                            <div class="insp__text">
-                                <a href="#!" class="insp__category">Destinations</a>
-                                <h3 class="insp__title">
-                                    <a href="#!">Party Jokes Startling But Unnecessary</a>
-                                </h3>
-                                <ul class="insp__people">
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-1">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="insp__item insp__item-bigheight insp__item-4">
-                            <div class="insp__text">
-                                <h3 class="insp__title">
-                                    <a href="#!">Maui By Air The Best Way Around The Island</a>
-                                </h3>
-                                <ul class="insp__people">
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-1">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="insp__item insp__item-bigheight insp__item-5">
-                            <div class="insp__text">
-                                <a href="#!" class="insp__category">Destinations</a>
-                                <h3 class="insp__title">
-                                    <a href="#!">Traveling To Barcelona</a>
-                                </h3>
-                                <ul class="insp__people">
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-1">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="insp__item insp__item-bigheight insp__item-6">
-                            <div class="insp__text">
-                                <a href="#!" class="insp__category">Destinations</a>
-                                <h3 class="insp__title">
-                                    <a href="#!">Traveling To Barcelona</a>
-                                </h3>
-                                <ul class="insp__people">
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-1">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="insp__item insp__item-big insp__item-7">
-                            <div class="insp__text">
-                                <h3 class="insp__title">
-                                    <a href="#!">A Guide To Rocky Mountain Vacations</a>
-                                </h3>
-                                <ul class="insp__people">
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-1 (1).jpg" alt="Human-1">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                    <li class="insp__people-item">
-                                        <img src="./img/grid_av-2.jpg" alt="Human-2">
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <footer class="footer" id="contacts">
-                <div class="container footer__container flex">
-                    <nav class="footer__column">
-                        <h2 class="footer__title">Company</h2>
-                            <ul class="footer__list">
-                                <li class="footer__item"><a href="#!" class="footer__link">About</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Press</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Blog</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Careers</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Security</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Driver Center</a></li>
-                            </ul>
-                    </nav>
-                    <nav class="footer__column">
-                        <h2 class="footer__title">Information</h2>
-                            <ul class="footer__list">
-                                <li class="footer__item"><a href="#!" class="footer__link">Our Story</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Recipes</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Nutrition</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Resources</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Newsletter</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Contact</a></li>
-                            </ul>
-                    </nav>
-                    <nav class="footer__column">
-                        <h2 class="footer__title">Information</h2>
-                            <ul class="footer__list">
-                                <li class="footer__item"><a href="#!" class="footer__link">Customer service</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Recommend a restaurant</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Signup a restaurant</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Jobs</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Press</a></li>
-                                <li class="footer__item"><a href="#!" class="footer__link">Terms of use</a></li>
-                            </ul>
-                    </nav>          
-                    <div class="footer__column">
-                        <h2 class="footer__title">Subscribe Now</h2>
-                        <form action="" class="subs__form">
-                            <input type="email" name="email" class="subs__form-field" placeholder="Your email">
-                            <button class="btn-reset btn subs__form-btn">Subscribe Now</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="footer__bottom">
-                    <div class="container bottom__container flex">
-                        <small class="footer__copy">© 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass Impressions. All rights reserved.</small>
-                        <ul class="footer__links">
-                            <li class="footer__links-item"><a href="#!" class="footer__link">Terms of Service</a></li>
-                            <li class="footer__links-item"><a href="#!" class="footer__link">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-        </main>
+                <div class="wrapper_photo"></div>
+            </div>
+        </div>
     </div>
+<!--Section title--> 
+
+<!--Section about-->
+    <div class="container-fluid col-lg-12" id="about">
+        <div class="row">
+            <div class="about_me">
+                <h1>About me</h1>
+                <p>I'm beginner front-end development, but I'm learning fast, understanding and learning HTML / CSS, JavaSctipt, so I'm not afraid of something new and complex</p>
+                <p>Analytical mind, well-developed logical and abstract thinking. Understanding and ability to productively allocate your personal and working time, with precise prioritization (time management).</p>
+                <p>I confidently cope with multitasking and stressful situations. Highly developed skills of communication and proactivity. I can perform monotonous work for a long time. I am not afraid of new and difficult tasks.</p>
+            </div>
+        </div>
+    </div>
+<!--Section about-->
+
+<!--Section skills-->
+    <div class="container col-lg-12" id="skills">
+        <div class="row">
+            <div class="wrapper">
+                <h1 class="skills_title">Skills</h1>
+                <p class="skills_desc">I work in such programs as</p>
+                    <div class="skills_program">
+                        <figure>
+                            <svg class="skill_ico">
+                                <use xlink:href="images/sprite.svg#html"></use>
+                            </svg>
+                            <figcaption>HTML</figcaption>
+                        </figure>
+
+                        <figure>
+                            <svg class="skill_ico">
+                                <use xlink:href="images/sprite.svg#css"></use>
+                            </svg>
+                            <figcaption>CSS</figcaption>
+                        </figure>
+
+                        <figure>
+                            <svg class="skill_ico">
+                                <use xlink:href="images/sprite.svg#js"></use>
+                            </svg>
+                            <figcaption>JavaSctipt</figcaption>
+                        </figure>
+
+                        <figure>
+                            <svg class="skill_ico" id="bootstrap">
+                                <use xlink:href="images/sprite.svg#bootstrap"></use>
+                            </svg>
+                            <figcaption>Bootstrap</figcaption>
+                        </figure>
+
+                        <figure>
+                            <svg class="skill_ico" id="figma">
+                                <use xlink:href="images/sprite.svg#figma"></use>
+                            </svg>
+                            <figcaption>Figma</figcaption>
+                        </figure>
+
+                        <figure>
+                            <svg class="skill_ico">
+                                <use xlink:href="images/sprite.svg#github"></use>
+                            </svg>
+                            <figcaption>GitHub</figcaption>
+                        </figure>
+                    </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar_1" style="width: 16.66%">
+                      <span class="sr-only">35% Complete (success)</span>
+                    </div>
+                    <div class="progress-bar progress-bar_2" style="width: 16.66%">
+                      <span class="sr-only">20% Complete (warning)</span>
+                    </div>
+                    <div class="progress-bar progress-bar_3" style="width: 16.66%">
+                      <span class="sr-only">10% Complete (danger)</span>
+                    </div>
+                    <div class="progress-bar progress-bar_4" style="width: 16.66%">
+                        <span class="sr-only">10% Complete (danger)</span>
+                    </div>
+                    <div class="progress-bar progress-bar_5" style="width: 16.66%">
+                        <span class="sr-only">10% Complete (danger)</span>
+                    </div>
+                    <div class="progress-bar progress-bar_6" style="width: 16.66%">
+                        <span class="sr-only">10% Complete (danger)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Section skills-->
+
+<!--Section portfolio-->
+    <div class="container col-lg-12" id="portfolio">
+        <div class="row">
+            <div class="wrapper">
+                <h1 class="portfolio__title">Portfolio</h1>
+                <div class="portfolio__cards">
+                    <figure class="portfolio__card portfolio__card-lg">
+                        <img src="./images/work_1.jpg" alt="MyWorks" class="portfolio__card-pic">
+                        <figcaption class="portfolio__card-title">
+                            GitHub Link: 
+                            <a href="https://projectnum17.github.io/NY_travel/" class="portfolio__card-link" target="_blank">
+                                NY Travel
+                            </a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="portfolio__card portfolio__card-sm">
+                        <img src="./images/work_2.jpg" alt="MyWorks" class="portfolio__card-pic">
+                        <figcaption class="portfolio__card-title">
+                            GitHub Link: 
+                            <a href="https://projectnum17.github.io/rbn_skateshop/" class="portfolio__card-link" target="_blank">
+                                RBN SkateShop
+                            </a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="portfolio__card portfolio__card-big">
+                        <img src="./images/work_3.jpg" alt="MyWorks" class="portfolio__card-pic">
+                        <figcaption class="portfolio__card-title">
+                            GitHub Link: 
+                            <a href="https://projectnum17.github.io/motherEarth/" class="portfolio__card-link" target="_blank">
+                                Mother Earth
+                            </a>
+                        </figcaption>
+                    </figure>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Section portfolio-->
+
+<!--Section education-->
+    <div class="container-fluid col-lg-12" id="education">
+        <div class="row">
+            <div class="education_title" >
+                <h1 >Education</h1>
+                <h6>2016 - 2021</h6>
+                <p>Odessa National Economic University, having received a bachelor's degree in specialty 072 "Finance, banking and insurance".</p>
+                <p>In 2021, he received a second education of a two-level system of higher education, namely a master's degree at the Department of Financial Management. This made it possible to study the specialty in more depth.</p>
+                <p>I can apply the acquired theoretical knowledge in practice, independently processing statistical information and draw conclusions based on the analysis.</p>
+            </div>
+        </div>
+    </div>
+<!--Section education-->
+
+<!--Section contacts-->
+    <div class="container col-lg-12" id="contacs">
+        <div class="row">
+            <div class="wrapper">
+                <h1 class="contacs_title">Contacs</h1>
+                <h3 class="contacs_desc">Want to know more or just chat? You are welcome!</h3>
+
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Send message
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            My e-mail: egor.chornyy@gmail.com
+                                <a href="mailto:egor.chornyy@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="social_link">
+                    <a href="https://instagram.com/old.kentucky?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <img src="./images/insta_ico.png" alt="https://instagram.com/old.kentucky?igshid=YmMyMTA2M2Y="> 
+                    </a> 
+
+                    <a href="https://t.me/+380981041202" target="_blank">
+                        <img src="./images/telegram_ico.png" alt="https://t.me/+380981041202">
+                    </a> 
+
+                    <a href="https://wa.me/+380981041202" target="_blank">
+                        <img src="./images/whatsapp_ico.png" alt="https://wa.me/+380981041202">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Section contacts-->
 </body>
 </html>
